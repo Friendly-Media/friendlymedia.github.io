@@ -1,0 +1,489 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: helvetica;
+    margin-bottom: 0;
+    min-height: 100%;
+}
+
+.wrapper {
+    width: 1225px;
+    margin: 0px;
+    position: relative;
+}
+
+.logo a {
+    font-size: 20px;
+    font-weight: 600;
+    float: left;
+    font-family: 'comic sans ms';
+    color: white;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #27374D;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 31px 22px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    background-color: #526D82;
+}
+
+.active {
+    background-color: #526D82;
+}
+
+section h3 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.about {
+    text-align: center;
+    display : block;
+}
+
+.container {
+    width:80%;
+    margin:0 auto;
+}
+
+.container:after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.img-responsive {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.banner:after {
+    content:'';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.section {
+    padding: 50px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container h2 {
+    color: black;
+    font-size: 22px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.price-row {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.price-col {
+    background: #27374D;
+    padding: 45px 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.price-col p {
+    font-size: 23px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.price-col h3 {
+    font-size: 28px;
+    margin: 15px 0 24px;
+    font-weight: 500;
+    padding-bottom: 0px;
+    padding-top: 12px;
+}
+
+.price-col h3 span {
+    font-size: 20px;
+}
+
+.price-col ul {
+    text-align: left;
+    margin: 20px 0;
+    color: #ddd;
+    list-style: none;
+    font-size: 15px;
+}
+
+.price-col ul li {
+    margin: 15px 0;
+}
+
+.price-col ul li::before {
+    content: '\2022';
+    color: #e33058;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.price-col h4 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.container h3 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container h5 {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #e33058;
+}
+
+.pembayaran {
+    text-align: center;
+}
+
+.payment {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 70px; 
+}
+
+.contact h2 {
+    color: black;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-col h2 {
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 7px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-col h4 {
+    font-size: 15px;
+    word-spacing: .5px;
+    letter-spacing: .5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:700px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: #27374D;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 15px sans-serif;
+    padding: 30px 30px 10px 30px;
+    margin-top: 25px;
+    display: block;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'comic sans ms';
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+    font-family: 'comic sans ms';
+}
+
+/* Footer links */
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 10px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+}
+
+@media (max-width: 425px) {
+    .logo a {
+        width: 100%;
+        font-size: 22px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: center;
+    }
+    }
+
+    nav ul {
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        padding-left: 34px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    .footer-distributed {
+        position: inherit;
+    }
+
+
+@media (max-width: 375px) {
+    .logo a {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .menu {
+        margin-right: 40px;
+    }
+
+    nav ul {
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    .footer-distributed {
+        position: inherit;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+} 
+
+@media (max-width: 1440px) {
+    .footer-distributed {
+        position: inherit;
+    }
+}
